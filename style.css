@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Inter",sans-serif;
+}
+
+body {
+  color: #f5d5e0;
+  background: linear-gradient(to bottom right, #210635, #420D4B, #7B337E);
+}
+
+/*------- header -----*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  position: relative;
+  font-size: 25px;
+  color: #f5d5e0;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Playwrite NO", cursive;
+  margin-left: 20px;
+  transition: 1s;
+}
+
+.logo:hover {
+  color: #210635;
+  text-shadow: 0 0 20px #f5d5e0, 0 0 40px #f5d5e0;
+}
+
+.logo:active {
+  pointer-events: none;
+}
+
+.nav-bar a {
+  display: inline-block;
+  font-size: 25px;
+  color: #f5d5e0;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 25px;
+  transition: 0.3s;
+}
+
+.nav-bar a:hover {
+  color: #420D4B;
+  text-shadow: 0 0 10px #f5d5e0, 0 0 20px #f5d5e0;
+}
+
+/* ------ home page ----- */
+.home {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 70px 10% 70px;
+}
+
+.hero-img {
+  position: absolute;
+  right: 0;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  width: 320px;
+  height: 320px;
+  margin-right: 10%;
+}
+
+.hero-img img {
+  height: 320px;
+  width: 320px;
+  border: 2px solid #f5d5e0;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #210635, 0 0 25px #210635, 0 0 50px #210635;
+  transition: 1s;
+}
+
+.hero-img img:hover {
+  box-shadow: 0 0 5px #f5d5e0, 0 0 25px #f5d5e0, 0 0 50px #f5d5e0;
+}
+
+.hero-img img:active {
+  pointer-events: none;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #7B337E;
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 3px 0;
+  transition: 1s;
+
+}
+
+.home-content h1:hover {
+  color: #420D4B;
+  text-shadow: 0 0 12px #f5d5e0;
+}
+
+.home-content h2 {
+ color: #6667AB;
+ margin: 2px 0;
+ text-shadow: 0 0 10px #05063a;
+
+}
+
+.home-content p {
+  font-size: 20px;
+  margin: 10px 0 0;
+  
+}
+
+.home-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #f5d5e0;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #f5d5e0;
+  margin: 30px 15px 30px 0;
+  transition: .4s;
+}
+
+.home-icons a:hover {
+  background: #f5d5e0;
+  color: #6667AB;
+  box-shadow: 0 0 20px #f5d5e0;
+}
+
+.btn-box {
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 0 10px 0 0;
+  background: #210635;
+  color: #f5d5e0;
+  border-radius: 40px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 1s;
+}
+
+.btn-box:hover {
+  background: #f5d5e0;
+  color: #420D4B;
+  box-shadow: 0 0 5px #f5d5e0, 0 0 25px #f5d5e0;
+}
+
+#resume-file {
+  border: 3px solid #f5d5e0;
+}
